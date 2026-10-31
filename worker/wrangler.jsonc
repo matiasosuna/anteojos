@@ -1,0 +1,7 @@
+{
+  "name": "anteojos-vision",
+  "main": "src/index.js",
+  "compatibility_date": "2026-10-01",
+  "observability": { "enabled": true }
+  // Secretos (desde la bóveda): GEMINI_API_KEY, APP_TOKEN
+}

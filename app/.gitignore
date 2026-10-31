@@ -1,0 +1,4 @@
+*.xcframework/
+
+# Anteojos
+CameraAccess/Anteojos/Secretos.swift
