@@ -38,6 +38,8 @@
 		D7A0000000000000000000AA /* AudioInputHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A0000000000000000000A9 /* AudioInputHandler.swift */; };
 		D7A0000000000000000000AC /* AudioCaptureHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A0000000000000000000AB /* AudioCaptureHandler.swift */; };
 		D7A0000000000000000000B2 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A0000000000000000000B1 /* CameraView.swift */; };
+		A1E0000000000000000000B1 /* Describir.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E0000000000000000000A1 /* Describir.swift */; };
+		A1E0000000000000000000B2 /* Secretos.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E0000000000000000000A2 /* Secretos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,6 +105,8 @@
 		D7A0000000000000000000A9 /* AudioInputHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioInputHandler.swift; sourceTree = "<group>"; };
 		D7A0000000000000000000AB /* AudioCaptureHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioCaptureHandler.swift; sourceTree = "<group>"; };
 		D7A0000000000000000000B1 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		A1E0000000000000000000A1 /* Describir.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Describir.swift; sourceTree = "<group>"; };
+		A1E0000000000000000000A2 /* Secretos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secretos.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -200,6 +204,7 @@
 		8FD96B7D2E6F0A9800F56AB1 /* CameraAccess */ = {
 			isa = PBXGroup;
 			children = (
+				A1E0000000000000000000C1 /* Anteojos */,
 				E66CC01A2F3E1A9300B07379 /* TestResources */,
 				8FD96B702E6F0A9800F56AB1 /* ViewModels */,
 				D7A0000000000000000000F0 /* Media */,
@@ -250,6 +255,15 @@
 				E66D30232E7DA71900470B48 /* MockDeviceKitButton.swift */,
 			);
 			path = MockDeviceKit;
+			sourceTree = "<group>";
+		};
+		A1E0000000000000000000C1 /* Anteojos */ = {
+			isa = PBXGroup;
+			children = (
+				A1E0000000000000000000A1 /* Describir.swift */,
+				A1E0000000000000000000A2 /* Secretos.swift */,
+			);
+			path = Anteojos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -409,6 +423,8 @@
 				8FFD60602E84A2F70035E446 /* MainAppView.swift in Sources */,
 				8FFD60612E84A2F70035E446 /* DebugMenuView.swift in Sources */,
 				8FD96B8A2E6F0A9800F56AB1 /* CapturePreviewView.swift in Sources */,
+				A1E0000000000000000000B1 /* Describir.swift in Sources */,
+				A1E0000000000000000000B2 /* Secretos.swift in Sources */,
 				E66D30242E7DA71900470B48 /* MockDeviceKitButton.swift in Sources */,
 				8F8F00782E8ACB4600A4BDAF /* WearablesViewModel.swift in Sources */,
 				D7A0000000000000000000A4 /* VideoRecorder.swift in Sources */,
@@ -473,7 +489,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.matiasosuna.anteojos;
+				PRODUCT_BUNDLE_IDENTIFIER = com.osunadevs.anteojos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -499,7 +515,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.matiasosuna.anteojos;
+				PRODUCT_BUNDLE_IDENTIFIER = com.osunadevs.anteojos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -519,7 +535,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.matiasosuna.anteojosUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.osunadevs.anteojosUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
@@ -545,7 +561,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.matiasosuna.anteojosUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.osunadevs.anteojosUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -571,7 +587,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.matiasosuna.anteojosTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.osunadevs.anteojosTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -600,7 +616,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.matiasosuna.anteojosTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.osunadevs.anteojosTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
